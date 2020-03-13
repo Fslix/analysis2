@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Felix Schneppe"
 description              : &description "personal description"
 url                      : https://fslix.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/analysis2" # the subpath of your site, e.g. "/blog"
 repository               : "Fslix/analysis2"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -49,6 +49,7 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 root                     : /analysis2
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
