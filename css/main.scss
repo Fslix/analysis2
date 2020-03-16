@@ -2412,7 +2412,7 @@ $baseurl: '{{ site.baseurl }}/images';
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 23px;
   width: 100%;
   text-align: left;
   border: none;
@@ -2422,7 +2422,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #ddd;
 }
 
 /* Style the accordion panel. Note: hidden by default */
