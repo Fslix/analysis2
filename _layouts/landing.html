@@ -205,6 +205,72 @@ MathJax = {
               <p>In dieser Woche ging es vornehmlich um Potenzreihen. Weiterhin wird der Begriff der Metrik eingeführt und hieraus die Norm definiert. Das komplette Arbeitsblatt findet ihr <a href="https://studip.tu-braunschweig.de"> ↗ hier </a>.
               </p>
 
+              <script type="text/javascript">
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+              </script>-->
+
+              <button class="accordion">Aufgabe 1 - Vollständige Induktion</button>
+          <div class="panel">
+            <p style="text-align: justify">
+                  Zeigen Sie mittels vollständiger Induktion, dass für jedes $n \in \mathbb{N}$
+                  $$6^{n+2} + 7^{2n+1}$$ ein Vielfaches von $43$ ist.
+            </p>
+          </div>
+          <button class="accordion">Aufgabe 2 - Vollständige Induktion</button>
+          <div class="panel">
+            <p style="text-align: justify">
+                  Beweisen Sie die <i>Bernoulli-Ungleichung</i>, d.h., zeigen Sie, dass für alle $n \in \mathbb{N}$ und $x \geq -1$
+  $$(1+x)^n \geq 1+nx$$
+  gilt.
+            </p>
+          </div>
+          <button class="accordion">Aufgabe 3 - Vollständige Induktion</button>
+          <div class="panel">
+            <p style="text-align: justify">
+                  Gesucht ist eine allgemeine Formel für den Wert der Summe
+                  $$\sum_{k=1}^n \frac{1}{k(k+1)}$$
+                  in Abhängigkeit von $n \in \mathbb{N}_+$.
+                  <ol style="text-align: left;">
+                  <li>Berechnen Sie die Summe für $n=1,\dots,5$ und leiten Sie hieraus eine Vermutung für die allgemeine Formel ab.</li>
+                  <li>Bestätigen oder Widerlegen Sie ihre Vermutung mittels vollständiger Induktion.</li>
+                  </ol>
+            </p>
+          </div>
+          <button class="accordion">Aufgabe 4 - Binomischer Lehrsatz</button>
+          <div class="panel">
+            <p style="text-align: justify">
+                  Beweisen Sie Satz 2.7:
+  Für reelle Zahlen $x,y$ und natürliche Zahlen $n$ gilt
+  \[
+  (x+y)^{n} = \sum_{k=0}^{n}\binom{n}{k}x^{n-k}y^{k}.
+  \]
+            </p>
+          </div>
+          <button class="accordion">Aufgabe 5</button>
+          <div class="panel">
+            <p style="text-align: justify">
+                Zeigen Sie die Gleichheit
+  $$\sum_{k=0}^{n}\binom{n}{k} (-1)^k = 0.$$
+            </p>
+          </div>
+
               <div id="twitch_embed"></div>
 
               <!-- Load the Twitch embed script -->
@@ -234,125 +300,8 @@ MathJax = {
             </div>
           </section>
 
-          <section class="wrapper style1 align-center">
-            <div class="inner">
-
-              <h2>Aufgabe 1 - Vollständige Induktion</h2>
-              <p style="text-align: justify">
-                  Zeigen Sie mittels vollständiger Induktion, dass für jedes $n \in \mathbb{N}$
-                  $$6^{n+2} + 7^{2n+1}$$ ein Vielfaches von $43$ ist.
-              </p>
-              <p style="text-align: justify">
-                <a href=""> ↗ Zu den Notizen </a>
-              </p>
-              <div class='twitchWrapper'>
-                  <div class='twitchStream' style="width:100%;">
-                    <iframe src="https://player.twitch.tv/?channel=fsliks" frameborder="0" scrolling="no"></iframe>
-                  </div>
-              </div>
-
-            </div>
-          </section>
 
 
-
-          <section class="wrapper style1 align-center">
-            <div class="inner">
-
-              <h2>Aufgabe 2 - Vollständige Induktion</h2>
-              <p style="text-align: justify">
-                  Beweisen Sie die <i>Bernoulli-Ungleichung</i>, d.h., zeigen Sie, dass für alle $n \in \mathbb{N}$ und $x \geq -1$
-  $$(1+x)^n \geq 1+nx$$
-  gilt.
-              </p>
-              <p style="text-align: justify">
-                <a href=""> ↗ Zu den Notizen </a>
-              </p>
-              <div class='twitchWrapper'>
-                  <div class='twitchStream' style="width:100%;">
-                    <iframe src="https://player.twitch.tv/?channel=fsliks" frameborder="0" scrolling="no"></iframe>
-                  </div>
-              </div>
-
-            </div>
-          </section>
-
-
-          <section class="wrapper style1 align-center">
-            <div class="inner">
-
-              <h2>Aufgabe 3 - Vollständige Induktion</h2>
-              <p style="text-align: justify">
-                  Gesucht ist eine allgemeine Formel für den Wert der Summe
-                  $$\sum_{k=1}^n \frac{1}{k(k+1)}$$
-                  in Abhängigkeit von $n \in \mathbb{N}_+$.
-                  <ol style="text-align: left;">
-                  <li>Berechnen Sie die Summe für $n=1,\dots,5$ und leiten Sie hieraus eine Vermutung für die allgemeine Formel ab.</li>
-                  <li>Bestätigen oder Widerlegen Sie ihre Vermutung mittels vollständiger Induktion.</li>
-                  </ol>
-              </p>
-              <p style="text-align: justify">
-                <a href=""> ↗ Zu den Notizen </a>
-              </p>
-              <div class='twitchWrapper'>
-                  <div class='twitchStream' style="width:100%;">
-                    <iframe src="https://player.twitch.tv/?channel=fsliks" frameborder="0" scrolling="no"></iframe>
-                  </div>
-              </div>
-
-            </div>
-          </section>
-
-
-          <section class="wrapper style1 align-center">
-            <div class="inner">
-
-              <h2>Aufgabe 4 - Binomischer Lehrsatz</h2>
-              <p style="text-align: justify">
-                  Beweisen Sie Satz 2.7:
-  Für reelle Zahlen $x,y$ und natürliche Zahlen $n$ gilt
-  \[
-  (x+y)^{n} = \sum_{k=0}^{n}\binom{n}{k}x^{n-k}y^{k}.
-  \]
-
-              </p>
-              <p style="text-align: justify">
-                <a href=""> ↗ Zu den Notizen </a>
-              </p>
-              <div class='twitchWrapper'>
-                  <div class='twitchStream' style="width:100%;">
-                    <iframe src="https://player.twitch.tv/?channel=fsliks" frameborder="0" scrolling="no"></iframe>
-                  </div>
-              </div>
-
-            </div>
-          </section>
-
-          <section class="wrapper style1 align-center">
-            <div class="inner">
-
-              <h2>Aufgabe 5</h2>
-              <p style="text-align: justify">
-                  Zeigen Sie die Gleichheit
-  $$\sum_{k=0}^{n}\binom{n}{k} (-1)^k = 0.$$
-              </p>
-              <p style="text-align: justify">
-                <a href=""> ↗ Zu den Notizen </a>
-              </p>
-              <div class='twitchWrapper'>
-                  <div class='twitchStream' style="width:100%;">
-                    <iframe src="https://player.twitch.tv/?channel=fsliks" frameborder="0" scrolling="no"></iframe>
-                  </div>
-              </div>
-
-            </div>
-          </section>
-
-
-
-
-
-      </div>
       {% include footer.html %}
 
       {% include scripts.html %}
